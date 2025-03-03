@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Ubuntu, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+body > header > div > p {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.product-details {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.product-images {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.main-image {
+    width: 500px;
+    height: 420px;
+    object-fit: contain;
+    margin-right: 20px; 
+}
+
+.product-info {
+    flex: 2;
+    max-width: 500px;
+}
+
+.product-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    color: #e60000;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.add-to-cart {
+    background-color: #e60000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #cc0000;
+}
+
+.product-details-tab, .product-reviews {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
+
+.product-reviews .review {
+    margin-bottom: 15px;
+}
+
+.product-reviews .rating {
+    color: #FFD700;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
